@@ -1,0 +1,16 @@
+"""
+How to install a private python package with pip.
+"""
+Create folders and files:
+package_name [parent dir]
+    setup.py [setup python file]
+    package_name [child dir]
+        __init__.py
+        package_name.py
+
+cd to package_name [parent dir]
+python setup.py sdist
+pip install dist/name_of_packagetar_file
+cd to your project location
+python
+pip install package_name
