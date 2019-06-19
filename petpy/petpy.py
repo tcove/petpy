@@ -13,3 +13,9 @@ def impedance(vp, rho):
     Compute acoustic impedance.
     """
     return vp * rho
+
+def shear_impedance(vs, rho):
+    """
+    Compute shear impedance.
+    """
+    return vs * rho
