@@ -10,6 +10,6 @@ def gardner(vp, alpha=310, beta=0.25):
 
 def impedance(vp, rho):
     """
-    Compute bulk density (in kg/m^3) from vp (in m/s).
+    Compute acoustic impedance.
     """
     return vp * rho
